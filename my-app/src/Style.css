@@ -1,0 +1,227 @@
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'Itim', cursive;
+  min-height: 100vh;
+  background: linear-gradient(130deg, #ec4899, #8b5cf6);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+   color: white;
+   gap:20px
+}
+.dashboard {
+
+  color: white;
+  font-family: sans-serif;
+}
+.header{
+display: flex;
+flex-direction: column;
+}
+
+.header-container {
+  display: flex;
+  flex-direction:row-reverse;
+  justify-content: center;
+  align-items: end;
+}
+
+.character {
+  width: 300px;
+  height: 300px;
+  
+}
+
+.title {
+  font-family: 'Itim', cursive;
+}
+.input-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+  
+}
+
+.routine-input {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 900px;
+  position: relative;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.263);
+}
+
+.add-btn {
+  background: linear-gradient(to right,#F691FF, #FF00C8);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+      position: absolute;
+    right: 390px;
+    top: 328px;
+}
+.btn{
+  
+  border: none;
+  background-color: #ffadef96;
+  border-radius: 10px;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.263);
+
+}
+
+.input-add{
+  display: flex;
+}
+ 
+
+.buttons{
+  display: flex;
+  gap: 10px;
+  
+  height: 50px;
+}
+
+
+.cards{
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+
+}
+.card{
+  background-color: #ffadef96 ;
+  border-radius: 20px;
+  color: white;
+  width: 258px
+}
+
+.infos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+.icon {
+  font-size: 3em;
+  margin: 0;
+}
+h2 {
+  font-size: 2em;
+  margin: 0;
+  font-weight: normal;
+}
+h3{
+  font-size: 1.5em;
+  margin: 0;
+  font-weight: normal;
+}
+.card-progress{
+  display: flex;
+  flex-direction: column;
+  background:linear-gradient( to right,#FFD6F7, #BED3FF) ;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  width: 1050px;
+}
+.progress{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+   padding: 10px;
+}
+#icon{
+  background-color: #ffff;
+  width: 50px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+}
+.stats-global{
+  display: flex;
+  justify-content: space-between;
+}
+.stat-info{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  gap: 10px;
+  width: 300px;
+  border-radius: 20px;
+}
+progress {
+  height: 7px;
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  transition: all 0.3s ease;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #ff60b52a;
+  border-radius: 5px;
+}
+#icon2{
+  background: linear-gradient(to bottom,#FF6DC0, #F88FFF);
+  width: 50px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+
+}
+.all-users{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.dropdown{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.name{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.progress1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+   padding: 10px;
+}
+.drop{
+  border: none;
+  background-color: transparent;
+  color: #ec4899
+}
+.center{
+  display: flex;
+}
+.routines-card{
+      padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #ec4899;
+    background-color: white;
+    margin-top: 30px;
+}
+.dashboard-section{
+  background-color: white;
+  border-radius: 20px;
+}
+/* Add this to your existing style.css file */
+.routine-item:hover {
+  background-color: #f8c4f1 !important; /* A slightly different background on hover */
+}
